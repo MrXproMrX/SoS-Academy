@@ -192,6 +192,14 @@
         -moz-transform: translate(-50%,-50%);
         -ms-transform: translate(-50%,-50%);
         -o-transform: translate(-50%,-50%);
+
+        form{
+            display: flex;
+            align-items:flex-end;
+            justify-content: center;
+            flex-direction: column;
+            outline: none;
+        }
     }
 
     .modal-overlay{
@@ -241,3 +249,39 @@
 }
 
 // courses_in end
+
+
+@media (max-width:650px){
+    .about{
+        padding: 50px 0;
+    }
+
+    .courses_in__item{
+        flex-direction: column;
+        grid-gap: 20px;
+    }
+}
+
+@media (max-width:500px){
+    .courses_in__SIGN_UP__form {
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+
+
+@media (max-width:450px){
+    .courses_in__SIGN_UP__form {
+        min-width: 280px;
+        max-width: 28px;
+    }
+}
+
+
+@media (max-width:360px){
+    .courses_in__SIGN_UP__form {
+        min-width: 250px;
+        max-width: 25px;
+        padding: 10px 10px 20px 10px;
+    }
+}
