@@ -252,7 +252,7 @@ label {
   align-items: center;
 }
 .courses_in__table td {
-  width: 270px;
+  width: 100%;
   min-width: 270px;
   min-height: 70px;
   display: flex;
@@ -1127,7 +1127,7 @@ input[type=time i] {
   line-height: 100%;
 }
 .contacts__mrnu__link span {
-  color: #cccccc;
+  color: #00a1e5;
   display: flex;
   align-items: center;
   grid-gap: 8px;
