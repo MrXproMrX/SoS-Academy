@@ -28,3 +28,22 @@
 }
 
 // news_in end
+
+@media (max-width:1000px){
+    .news_in .news__img {
+        width: 400px;
+        height: 270px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:750px){
+    .news_in .news__img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+        float: inherit;
+    }
+}
