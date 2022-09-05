@@ -477,6 +477,23 @@ label {
   text-align: justify;
 }
 
+@media (max-width: 1000px) {
+  .news_in .news__img {
+    width: 400px;
+    height: 270px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 750px) {
+  .news_in .news__img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+    float: inherit;
+  }
+}
 body {
   font-family: "Roboto", serif;
   box-sizing: border-box;
@@ -696,6 +713,25 @@ body {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   margin-left: 32px;
+}
+
+input[type=time i] {
+  position: relative;
+}
+
+::-webkit-calendar-picker-indicator {
+  background: transparent;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
 }
 
 .slader {
@@ -1183,7 +1219,8 @@ body {
   .courses,
 .our_warranty,
 .news,
-.courses_in {
+.courses_in,
+.news_in {
     margin-bottom: 60px;
   }
   .courses__item {
@@ -1309,7 +1346,8 @@ body {
 .our_warranty,
 .news,
 .about,
-.courses_in {
+.courses_in,
+.news_in {
     margin-bottom: 30px;
   }
   .courses__title__h2 {
@@ -1362,6 +1400,9 @@ body {
   }
   .header__submit__form span {
     margin-left: 15px;
+  }
+  .news__title__h4 {
+    font-size: 16px;
   }
 }
 @media (max-width: 360px) {
