@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slick.css">
-    <title>HTML5&CSS3</title>
+    <title>PHP MYSQL</title>
 </head>
 <body>
 
@@ -151,9 +151,9 @@
 <div class="about" style="background-image: url(foto/about.png);">
     <section class="container">
         <div class="about__cart">
-            <h2 class="courses__title__h2">HTML5&CSS3</h2>
+            <h2 class="courses__title__h2">PHP MYSQL</h2>
             <ul class="about__menu">
-                <li><a href="#!" class="about__menu__link"><span><i class="fas fa-arrow-left"></i></span> ГЛАВНАЯ</a></li>
+                <li><a href="index.html" class="about__menu__link"><span><i class="fas fa-arrow-left"></i></span> ГЛАВНАЯ</a></li>
             </ul>
         </div>
     </section>
@@ -178,13 +178,9 @@
                         <h3 class="our_warranty__title__h3">ОПИСАНИЕ КУРСА</h3>
                         <div class="courses_in__text">
                             <p>          
-                                Курс веб программирования Front-end (фронтенд) разработчика включает в себя 6ти месячный курс обучения и включает в себя такие технологии как: HTML5&CSS3, Bootstrap4, JavaScript, jQuery и фреймворк React или Ajax.
-                                Курсы по каскадным таблицам стилей CSS - современные уроки управления элементами  внешнего вида HTML-документа страницы, вторая ступень на пути освоения web-ремесла.
-                                Уроки Photoshop дают необходимые знания в области веб-дизайна.
-                                Что такое HTML? HTML — HyperText Markup Language или язык гипертекстовой разметки документов. Изучив этот язык, Вы научитесь создавать и добавлять нужную информацию на свои первые веб-страницы.
-                                Любой сайт состоит из набора веб-страниц. На странице мы видим текст, ссылки, формы, изображения, различные тени, закругления блоков и прочие графические элементы. При этом веб-страница является интерактивной: текст мы можем выделить, форму мы можем заполнить, изображения можем сохранить к себе на компьютер. Но ещё до создания веб-страницы её внешний вид рисовал дизайнер, по сути, это была просто картинка, самая обычная картинка, на которой была нарисована вся страница сайта. Безусловно, она не была интерактивной, Вы ведь не можете открыть фотографию с текстом и скопировать его? Так вот процесс преобразования изображения страницы в веб-страницу называется версткой. Без верстки не обходится абсолютно ни один сайт. Сама верстка делается с помощью HTML и CSS. И HTML, и CSS – это основа любого сайта. Фактически, зная только HTML, CSS и умея их применять на практике (а другими словами, верстать сайты), Вы уже можете создавать бесчисленное множество различных сайтов.
-                                Таким образом, если Вы хотите заниматься сайтостроением, создать свой сайт, первое, что Вам необходимо освоить – это курсы веб программирования HTML и CSS, а также научиться верстать сайты с их помощью. И именно на первом месяце обучения изучаются основы HTML/CSS и верстка первых страниц, где мы будем обучаться верстке первых страниц, осваивать использование таблиц стилей CSS и учимся украшать страницы.
-                                Длительность обучения 1-1.5 месяца.
+                                На данном курсы мы изучаем работу PHP c базой данных (PHP MySQL).
+                                MySQL — это  свободная реляционная система управления базами данных. Учимся работать с базами данных MySQL, узнаем для чего нужен язык SQL и как строить SQL- запросы. Работаем с базой данных MySQL и проектируем структуру базы данных MySQL для нашего сайта. Создадим систему авторизации и регистрации.
+                                Длительность обучения 1 месяц.
                             </p>
                         </div>
                     </div>
@@ -199,7 +195,7 @@
                         <h3 class="our_warranty__title__h3">ВОЗРАСТ УЧЕНИКОВ</h3>
                         <div class="courses_in__text">
                             <p>          
-                                С 13 лет
+                                С 14 лет
                             </p>
                         </div>
                     </div>
@@ -226,11 +222,11 @@
                                 <label for="star-6" title="Оценка «5»"></label>	
                                 <input type="radio" id="star-5" name="rating" value="5">
                                 <label for="star-5" title="Оценка «5»"></label>	
-                                <input type="radio" id="star-4" name="rating" value="4">
+                                <input type="radio" checked id="star-4" name="rating" value="4">
                                 <label for="star-4" title="Оценка «4»"></label>    
                                 <input type="radio" id="star-3" name="rating" value="3">
                                 <label for="star-3" title="Оценка «3»"></label>  
-                                <input type="radio" checked id="star-2" name="rating" value="2">
+                                <input type="radio" id="star-2" name="rating" value="2">
                                 <label for="star-2" title="Оценка «2»"></label>    
                                 <input type="radio" id="star-1" name="rating" value="1">
                                 <label for="star-1" title="Оценка «1»"></label>
@@ -310,7 +306,7 @@
                         <input class="header__input__form" name="email" type="text" placeholder="Email">
 
                         <select class="header__input__form" name="country" id="country">
-                            <option  value="1" selected disabled>HTML5&amp;CSS3</option>
+                            <option  value="1" selected disabled>PHP MySQL</option>
                         </select>
 
                         <input class="header__input__form header__time__form" type="time" placeholder="С" value="09:30">
@@ -394,36 +390,36 @@
 
 <!-- footer start -->
 
-    <footer>
-        <div class="footer">
-            <section class="container">
-                <div class="footer__cart">
-                    <div class="footer__list">
-                        <div class="footer__logo wow fadeInLeft">
-                            <a href="#!">
-                                <img src="foto/footer_logo.png" alt="footer_logo">
-                            </a>
-                        </div>
-    
-                        <ul class="footer__contacts wow fadeInRight">
-                            <li>
-                                <a href="https://www.facebook.com/sosacademy.uz" class="footer__contacts__link"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-    
-                            <li>
-                                <a href="https://www.instagram.com/sosacademy.uz" class="footer__contacts__link"><i class="fab fa-instagram"></i></a>
-                            </li>
-                        </ul>
+<footer>
+    <div class="footer">
+        <section class="container">
+            <div class="footer__cart">
+                <div class="footer__list">
+                    <div class="footer__logo wow fadeInLeft">
+                        <a href="index.html">
+                            <img src="foto/footer_logo.png" alt="footer_logo">
+                        </a>
                     </div>
 
-                    <div class="footer__bootom wow fadeInDown">
-                        <a class="footer__bootom__link">“SOS Academy” Все права защищены</a>
-                        <a href="https://sos.uz" class="footer__bootom__link">© Copyright 2021 - Web developed by SOS Group</a>
-                    </div>
+                    <ul class="footer__contacts wow fadeInRight">
+                        <li>
+                            <a href="https://www.facebook.com/sosacademy.uz" class="footer__contacts__link"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/sosacademy.uz" class="footer__contacts__link"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
                 </div>
-            </section>
-        </div>
-    </footer>
+
+                <div class="footer__bootom wow fadeInDown">
+                    <a class="footer__bootom__link">“SOS Academy” Все права защищены</a>
+                    <a href="https://sos.uz" class="footer__bootom__link">© Copyright 2021 - Web developed by SOS Group</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
 
 <!-- footer end -->
 

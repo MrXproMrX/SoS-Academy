@@ -685,7 +685,7 @@ input[type="time" i]{
         @include fontAll(14px,400,$text);
         line-height: 100%;
         span{
-            color:#cccccc;
+            color:$link;
             display: flex;
             align-items:center;
             grid-gap: 8px;
