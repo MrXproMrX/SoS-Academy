@@ -686,9 +686,6 @@ body {
 .header__input__form option {
   color: #212529 !important;
 }
-.header__iframe__form iframe {
-  width: 100%;
-}
 .header__submit__form {
   font-size: 14px;
   font-weight: 600;
@@ -1389,6 +1386,33 @@ input[type=time i] {
   }
   .header__SIGN_UP__button {
     padding: 30px 20px;
+  }
+  .header__im__not__robot {
+    max-width: 200px;
+    overflow-x: scroll;
+    height: 120px;
+  }
+  .header__im__not__robot::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+  .header__im__not__robot::-webkit-scrollbar-track {
+    background: #00a1e5;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+  .header__im__not__robot::-webkit-scrollbar-thumb {
+    background: #ffb500;
+    height: 8px;
+    border-radius: 50px;
   }
 }
 @media (max-width: 400px) {
